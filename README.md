@@ -1,6 +1,6 @@
 # 2.20-World-Server-Files
 
-Configuration and data files read by the World server: every map in one process, all world duties, game data and player saving. Configs are JSON with comments enabled..
+Configuration and data files read by the World server: every map in one process, all world duties, game data and player saving. Configs are JSON with comments enabled.
 
 ## Contents
 
