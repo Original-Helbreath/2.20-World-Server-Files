@@ -1,0 +1,14 @@
+{
+	// Where the Login server's World link listens (login_server.json: listen.world_port).
+	"login_address": "127.0.0.1",
+	"login_port": 3840,
+	// Must match this World's entry under worlds[] in login_server.json (at most 32 characters).
+	"world_name": "WS1",
+	// 64 hex digits, shared with that entry's link_key. The all-zero sample key is only for a first run:
+	// set a real one (for example 32 random bytes as hex) in both files before deploying.
+	"link_key": "0000000000000000000000000000000000000000000000000000000000000000",
+	// A heartbeat goes to the Login server this often; three missed ones from it count as a lost link.
+	"heartbeat_seconds": 5,
+	// debug, info, warning or error; debug also logs every heartbeat.
+	"log_level": "info"
+}
