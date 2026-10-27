@@ -10,5 +10,7 @@
 	// A heartbeat goes to the Login server this often; three missed ones from it count as a lost link.
 	"heartbeat_seconds": 5,
 	// debug, info, warning or error; debug also logs every heartbeat.
-	"log_level": "info"
+	"log_level": "info",
+	// players.db, shared with the Login server: the same file as its database.path. The World owns the character tables.
+	"players_database": "data/players.db"
 }
